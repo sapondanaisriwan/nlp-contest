@@ -1,0 +1,23 @@
+{
+  "device": "cpu",
+  "query_mode": "raw",
+  "classifier_mode": "enhanced",
+  "prompt_mode": "basic",
+  "evidence_strategy": "focused",
+  "question_order": "easy_first",
+  "deferred_retry": true,
+  "retrieval": "bm25",
+  "context_mode": "full",
+  "chunk_size": 350,
+  "overlap": 60,
+  "evidence_tokens": 1200,
+  "context_tokens": 5120,
+  "answer_tokens": 64,
+  "retry_tokens": 96,
+  "threads": 2,
+  "seed": 20261009,
+  "max_seconds": 5400,
+  "total_seconds": 6300,
+  "max_ram_gb": 12.0,
+  "arithmetic": true
+}

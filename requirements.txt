@@ -1,0 +1,9 @@
+# Development bootstrap; exact installed versions are saved after Colab testing.
+# CPU torch wheels are installed separately by the notebook.
+numpy>=1.26,<3
+pypdf>=5,<7
+psutil>=5.9,<8
+transformers>=4.56,<5
+sentence-transformers>=3,<6
+huggingface-hub>=0.34,<1
+llama-cpp-python>=0.3.9,<0.4
